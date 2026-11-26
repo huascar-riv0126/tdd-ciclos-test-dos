@@ -1,5 +1,8 @@
 function sumarVectores(vecA, vecB) {
-    let vecC = [vecA[0] + vecB[0], vecA[1] + vecB[1]];
+    let vecC = []
+    for (let index = 0; index < vecA.length; index++) {
+        vecC[index] = vecA[index] + vecB[index];
+    }
     return vecC;
 }
 
